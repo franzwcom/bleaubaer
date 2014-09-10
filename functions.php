@@ -30,7 +30,7 @@ define('SCRIPTS',  THEMEROOT . '/js');
 
 
 
-
+//add_theme_support( 'post-thumbnails' );
 
 
 

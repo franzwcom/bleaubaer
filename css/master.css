@@ -38,3 +38,5 @@ Notes:	some extra comment
 body { background-color: orange; }
 
 .main-content { background-color: white; margin: 0 auto; }
+
+.entry-thumbnail { width: 300px; height: 250px; padding: 5px; margin: 5px; }
