@@ -1,0 +1,50 @@
+/*------------------------------------------------------------------
+DOCUMENT INFORMATION
+
+[Master Stylesheet]
+Project:	  Name of the Project
+Version:	  1.0
+Last change:  Date goes here
+Author: Franz G
+Author URI:   http://franzw.com
+Primary use:  Type of the project 
+Client:       Name of the client
+-------------------------------------------------------------------*/
+/*	
+	@import "layout.css";
+	@import "colors.css";
+	@import "typography.css";
+*/
+/* @import "debugging.css"; */
+/* COLORS
+	- default body text  #ffffcc
+	- subtitle h2 text   #ff9900
+	- form input borders #cc9933
+	- default p text     #f0f0f0
+	- pre borders        #ffff99
+*/
+
+/* FONTS
+	- default body text  Arial, Helvetica Neue, Helvetica, sans-serif
+	- subtitle h2 text   Garamond, Hoefler Text, Times New Roman, Times, serif
+	- form input text    Cambria, Georgia, Times, Times New Roman, Times, serif
+	- default p text     Copperplate Light, Copperplate Gothic Light, serif
+	- pre and code       Consolas, Lucida Console, Monaco, monospace
+*/
+/*------------------------------------------------------------------
+
+
+Notes:	some extra comment
+-------------------------------------------------------------------*/
+
+body{
+	background-color: orange;
+}
+
+.main-content{
+	background-color: white;
+	margin: 0 auto;
+}
+
+
+

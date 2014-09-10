@@ -1,0 +1,25 @@
+{
+  "name": "wordpress boiler plate webdev",
+  "version": "1.0",
+  "homepage": "https://github.com/franzwcom/mywordpress",
+  "authors": [
+    "franzwcom <github@franzw.com>"
+  ],
+  "description": "bower components for wp-webdev",
+  "keywords": [
+    "franzwcom"
+  ],
+  "license": "yes",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "bootstrap": "~3.2.0",
+    "jquery": "~2.1.1"
+  }
+}
