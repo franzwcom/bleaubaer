@@ -12,7 +12,7 @@
 |
 */
  ?>
-   <?php get_header(); ?>
+   <?php get_header(); // the header ?>
 
  <div class="main-content col-md-8" role="main">
  	
@@ -34,4 +34,4 @@
  </div> <!-- end "main-content col-md-8" role="main" -->
 
 
- <?php get_footer(); ?>
+ <?php get_footer(); // the footer ?>
