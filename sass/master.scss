@@ -39,14 +39,19 @@ Notes:	some extra comment
 
 body{
 	background-color: orange;
+
 }
 
 .main-content{
-	background-color: white;
-	margin: 0 auto;
+	//background-color: white;
+    //margin: 0 auto;
 }
 
-
+.mainbox{
+	background-color: white;
+	padding-right: 0px;
+    padding-left: 0px;
+}
 
 .entry-thumbnail{
 	width:300px;
@@ -64,12 +69,25 @@ body{
 	color:gray;
 	&:hover {
       text-decoration: none;
-      color: gray;
+      color: black;
     }
+    font-size: 2em;
 }
 
+.label{
+	border-radius: 0px;
+}
 
-
+.le-label{
+	//color:white;
+	a{
+		color:white;
+		text-decoration: none;
+		&:hover{
+			color:lightgray;
+		}
+	}
+}
 
 
 

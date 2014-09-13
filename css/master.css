@@ -37,12 +37,17 @@ Notes:	some extra comment
 -------------------------------------------------------------------*/
 body { background-color: orange; }
 
-.main-content { background-color: white; margin: 0 auto; }
+.mainbox { background-color: white; padding-right: 0px; padding-left: 0px; }
 
 .entry-thumbnail { width: 300px; height: 250px; padding: 5px; margin: 5px; }
 
-.letitle { color: gray; }
-.letitle:hover { text-decoration: none; color: gray; }
+.letitle { color: gray; font-size: 2em; }
+.letitle:hover { text-decoration: none; color: black; }
+
+.label { border-radius: 0px; }
+
+.le-label a { color: white; text-decoration: none; }
+.le-label a:hover { color: lightgray; }
 
 .img-thumbnail { border-radius: 0px; }
 
