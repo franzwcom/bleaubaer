@@ -16,6 +16,9 @@
 
    <?php get_template_part( 'nav' );   ?>
 
+   <?php get_template_part( 'header_image' ); ?>
+
+
 
  
 
