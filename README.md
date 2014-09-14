@@ -22,8 +22,6 @@ Clone the git repo - `git clone git@github.com:franzwcom/bleaubaer.git` - or [do
 
 BleauBaer is a WordPress starter theme based on [Bootstrap](http://getbootstrap.com/) that will help you make better themes.
 
-* Source: [https://github.com/roots/roots](https://github.com/roots/roots)
-
 ## Features
 
 * [Bower](http://bower.io/) for front-end package management
