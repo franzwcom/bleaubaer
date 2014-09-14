@@ -35,7 +35,7 @@ Client:       Name of the client
 
 Notes:	some extra comment
 -------------------------------------------------------------------*/
-body { background-color: orange; }
+body { background-color: #1abc9c; }
 
 .mainbox { background-color: white; padding-right: 0px; padding-left: 0px; }
 
