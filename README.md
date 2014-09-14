@@ -27,3 +27,5 @@ BleauBaer is a WordPress starter theme based on [Bootstrap](http://getbootstrap.
 * [Bower](http://bower.io/) for front-end package management
 * [Bootstrap](http://getbootstrap.com/)
 * Organized file and template structure
+* NavWalker class implemented for bootstrap 3.0+
+* A custom WordPress NAV WALKER class to fully implement the [Bootstrap](http://getbootstrap.com/) 3.0+ 

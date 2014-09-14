@@ -14,7 +14,7 @@
  ?>
    <?php get_header(); // the header ?>
 
-   <?php //get_template_part( 'nav' );   ?>
+   <?php get_template_part( 'nav' );   ?>
 
 
  

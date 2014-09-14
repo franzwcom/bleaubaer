@@ -36,7 +36,72 @@ set_post_thumbnail_size( 150, 150, true ); // default Post Thumbnail dimensions 
 }
 
 
+/*
+|--------------------------------------------------------------------------
+| custom background
+|--------------------------------------------------------------------------
+|
+| 
+| 
+| 
+|
+*/
+
+$defaults = array(
+	'default-color'          => '',
+	'default-image'          => '',
+	'default-repeat'         => '',
+	'default-position-x'     => '',
+	'wp-head-callback'       => '_custom_background_cb',
+	'admin-head-callback'    => '',
+	'admin-preview-callback' => ''
+);
+add_theme_support( 'custom-background', $defaults );
+
+/*
+|--------------------------------------------------------------------------
+| End custom background
+|--------------------------------------------------------------------------
+*/
+
+
+/*
+|--------------------------------------------------------------------------
+| Register Custom Navigation Walker
+|--------------------------------------------------------------------------
+|
+| 
+| 
+| 
+|
+*/
+register_nav_menus( array(
+    'primary'        => __( 'Primary Menu', 'BleauBaer' ),
+    'secondary-menu' => __( 'Secondary Menu', 'BleauBaer' ),
+	'tertiary-menu'  => __( 'Tertiary Menu', 'BleauBaer' )
+) );
+
+
+require_once('wp_bootstrap_navwalker.php');
+
+/*
+/ Sources: 
+/ * wp-bootstrap-navwalker 
+/   A custom WordPress nav walker class to fully implement the Twitter Bootstrap 3.0+ 
+/   navigation style in a custom theme using the WordPress built in menu manager.  http://goo.gl/gHrogD
+/ 
+/ * Goodbye, headaches. Hello, menus! by Justin Tadlock http://goo.gl/VYdUtD
+/
+|--------------------------------------------------------------------------
+| End Register Custom Navigation Walker
+|--------------------------------------------------------------------------
+*/
+
+
+
+
+
+
+
  ?>
 
-
- 

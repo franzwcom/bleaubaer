@@ -12,6 +12,7 @@
  ?>
 
  <?php get_header() ?>
+   <?php get_template_part( 'nav' );   ?>
 
 	 <?php while( have_posts() ) : the_post(); ?>
 	 	<article id="post-<?php the_ID(); ?>" <?php post_class('col-md-12'); ?> >
