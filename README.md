@@ -4,8 +4,7 @@ BleauBaer - WordPress starter boiler plate
 Current Version : 1.1
                   
 This is a WordPress theme starter, it's a small simple framework to help the development of a WordPress theme.  
-The WordPress theme starter takes advantage of bootstrap on its latest version.  
-It also includes bower and sass for styling.
+The WordPress theme starter takes advantage of [Bootstrap](http://getbootstrap.com/) on its latest version.  
 The idea behind of this ( besides the learning purposes) is to get faster the process of designing and coding a WordPress theme by reducing the amount of  time.
 
 ![ScreenShot](https://raw.githubusercontent.com/franzwcom/bleaubaer/master/screenshot.png)
@@ -17,8 +16,16 @@ Sass comes baked into Bleaubaer.
 Just worry about the design.
 
 
-Package Managers
-----------------
+## Installation
 
-* [Bower](http://bower.io): `bootstrap, jquery`
-and more to come ....
+Clone the git repo - `git clone git@github.com:franzwcom/bleaubaer.git` - or [download it](https://github.com/franzwcom/bleaubaer/archive/master.zip) and then rename the directory to the name of your theme or website.
+
+BleauBaer is a WordPress starter theme based on [Bootstrap](http://getbootstrap.com/) that will help you make better themes.
+
+* Source: [https://github.com/roots/roots](https://github.com/roots/roots)
+
+## Features
+
+* [Bower](http://bower.io/) for front-end package management
+* [Bootstrap](http://getbootstrap.com/)
+* Organized file and template structure
