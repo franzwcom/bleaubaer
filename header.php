@@ -11,14 +11,14 @@
 */
  ?>
 <!DOCTYPE html>
-<html lang="en">
+<html <?php language_attributes(); ?>>
 <head>
     <!-- Basic page sets 
      =============================================================== -->
-	  <meta charset="UTF-8">
+	  <meta charset="<?php bloginfo('chartset'); ?>">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title><?php bloginfo('name' ); ?> | <?php wp_title(); ?></title>
-    <meta name="description" content="">
+    <title><?php wp_title('|', true,'right'); ?><?php bloginfo('name' ); ?></title>
+    <meta name="description" content="<?php bloginfo('description'); ?>">
     <meta name="author" content="">
      <!-- Mobile Specific Meta 
      =============================================================== -->
