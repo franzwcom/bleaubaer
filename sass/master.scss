@@ -2,13 +2,13 @@
 DOCUMENT INFORMATION
 
 [Master Stylesheet]
-Project:	  Name of the Project
-Version:	  1.0
-Last change:  Date goes here
-Author: Franz G
+Project:	  BleauBaer
+Version:	  1.1
+Last change:  16/09/2014 @ 12:35pm
+Author:       Franz G
 Author URI:   http://franzw.com
-Primary use:  Type of the project 
-Client:       Name of the client
+Primary use:  Web Development 
+Client:       BleauBaer
 -------------------------------------------------------------------*/
 /*	
 	@import "layout.css";
@@ -36,6 +36,10 @@ Client:       Name of the client
 
 Notes:	some extra comment
 -------------------------------------------------------------------*/
+
+// basic settings //
+//@import "base/_basic-settings";
+
 
 body{
 	background-color: #294d6f;
