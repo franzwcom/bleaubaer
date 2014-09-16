@@ -52,3 +52,5 @@ body { background-color: #294d6f; }
 .img-thumbnail { border-radius: 0px; }
 
 .wp-post-image { float: left; margin: 0px 10px 10px 0; }
+
+.le_footer { clear: both; }

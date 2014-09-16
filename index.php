@@ -38,6 +38,6 @@
  
 
 
-
+ <?php get_template_part( 'footer_page' ); ?>
 
  <?php get_footer(); // the footer ?>
