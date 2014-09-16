@@ -31,5 +31,5 @@
 	 	   <?php comments_template(); ?> 
 	 <?php endwhile; ?>
 
- <?php get_template_part( 'footer_page' ); ?>
+ <?php //get_template_part( 'footer_page' ); ?>
  <?php get_footer(); ?>

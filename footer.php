@@ -13,7 +13,7 @@
 
 
 
- 
+  <?php get_template_part( 'footer_page' ); ?>
 
  
     <!-- Important JS files 
