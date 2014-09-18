@@ -1,7 +1,10 @@
 BleauBaer - WordPress starter boiler plate
 ==========================================
 
-Current Version : 1.1
+Current Version : 1.1 
+
+Beta version
+============
                   
 This is a WordPress theme starter, it's a small simple framework to help the development of a WordPress theme.  
 The WordPress theme starter takes advantage of [Bootstrap](http://getbootstrap.com/) on its latest version.  
